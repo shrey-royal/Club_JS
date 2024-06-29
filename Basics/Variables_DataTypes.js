@@ -1,4 +1,4 @@
-console.log("Hello, World!")
+// console.log("Hello, World!")
 
 // document.write("Hello, " + prompt("Enter your name: "))
 
@@ -48,3 +48,51 @@ User-Defined object types can be:
 etc.
 
 */
+
+// console.log("Sat Jun 29 2024 17:13:53");
+
+// console.log(123, typeof(123));
+// console.log(12.3, typeof 12.3);
+// console.log("Smit", typeof "Smit");
+// console.log('a', typeof 'a');
+// console.log(true, typeof false);
+// console.log(undefined, typeof undefined);
+
+// var f_name = "royale"
+// console.log(f_name, typeof f_name);
+
+// let flag = false
+// console.log(flag, typeof flag);
+
+// var var_name    //declaration
+// var_name = "some value" //initialization
+
+// numeric seperators
+
+// const budget = 1_000_000_000;
+// console.log(budget);
+
+// let amount = 120_201_123.007;
+// console.log(amount);
+
+// let expense = 123_450
+// console.log(expense);
+
+// let fee = 12345_00;
+// console.log(fee);
+
+// let amount = 0.000_001;
+// console.log(amount);
+
+// let max = 9_223_372_036_854_775_807n;
+// console.log(max, typeof max);
+// console.log(1n, typeof 1n);
+
+// let nibbles = 0b1011_0101_0101
+// console.log(nibbles, typeof nibbles);
+
+// let val = 0o1234
+// console.log(val, typeof val);
+
+// let message = 0xD0;
+// console.log(message, typeof message);
