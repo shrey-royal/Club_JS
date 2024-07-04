@@ -44,7 +44,7 @@ if (condition) {
 
 */
 
-var money = +prompt("Enter the money you have");
+// var money = +prompt("Enter the money you have");
 
 // if(money < 100) {
 //     console.log("You may eat street food");
@@ -78,3 +78,8 @@ var money = +prompt("Enter the money you have");
 //     // alert("Nothing is preferred!");
 // }
 
+/*
+Truthy value: true,1,-15,3.14345,"abc",[],[1,2],12n 
+
+Falsy Value : false,0,"",null,undefined,NaN
+*/
