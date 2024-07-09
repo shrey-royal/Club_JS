@@ -108,3 +108,35 @@ var veggies = [
 // var arr = [0, 1]
 // console.log(arr.concat(veggies));
 
+var a = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+// console.log(a.copyWithin(5, 0, 3));
+
+// ... spread operator
+// console.log(...a);
+
+// str = ""
+// for (let i = 0; i < a.length; i++) {
+//     str = str + a[i] + " ";    
+// }
+
+// console.log(str);
+a = ['a', 'b', 'c', 'd', 'e']
+b = ['f', 'g', 'h', 'i', 'j']
+
+var arr = [1, 2, ...a, 9, 10, ...b, 11, [23.2, 34.3, 45.4, 56.5, 67.6]]
+// console.log(arr);
+
+// foreach
+// arr.forEach(i => {
+//     document.write(i + "<br>");
+// })
+
+// for in: iterate over all the properties of an array
+// for (const i in arr) {
+//     console.log(i);
+// }
+
+// for of: iterate over the values in the array
+// for (const i of arr) {
+//     console.log(i);
+// }

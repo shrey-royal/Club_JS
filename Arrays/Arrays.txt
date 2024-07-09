@@ -109,3 +109,41 @@ Sample Data:
 Output:
 Filtered Data: [120, 150, 200, 180]
 Average: 162.5
+
+
+----------------------------------------------------------
+
+Basic:
+
+1. Write a simple JavaScript program to join all elements of the following array into a string.
+Sample array : myColor = ["Red", "Green", "White", "Black"];
+Expected Output :
+"Red,Green,White,Black"
+"Red,Green,White,Black"
+"Red+Green+White+Black"
+
+2. Write a JavaScript program to sort the items of an array.
+Sample array : var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+Sample Output : -4,-3,1,2,3,5,6,7,8
+
+3. Write a JavaScript program that accepts a string as input and swaps the case of each character. For example if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'.
+
+4. Write a JavaScript program that prints the elements of the following array.
+Note : Use nested for loops.
+Sample array : var a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
+Sample Output :
+"row 0"
+" 1"
+" 2"
+" 1"
+" 24"
+"row 1"
+------
+------
+
+5. Write a JavaScript program to flatten a nested (any depth) array. If you pass shallow, the array will only be flattened to a single level.
+Sample Data :
+console.log([1, [2], [3, [[4]]],[5,6]]);
+[1, 2, 3, 4, 5, 6]
+console.log([1, [2], [3, [[4]]],[5,6]], true);
+[1, 2, 3, [[4]], 5, 6]
