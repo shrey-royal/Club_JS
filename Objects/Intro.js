@@ -54,6 +54,37 @@ var person = {
 // console.log('age' in person);
 // console.log(person.country);    //undefined
 
-for (const prop in person) {
-    console.log(prop);
+// for (const prop in person) {
+//     console.log(prop);
+// }
+
+
+// const movies = {
+//     names : ["Movie 1", "Movie 2", "Movie 3", "Movie 4"],
+//     ratings : [6.7, 6.7, 8.7, 7],
+//     releaseYear : [1990, 1997, 2005, 2020]
+// }
+
+// console.log(movies);
+
+
+// for (const idx in movies) {   //props
+//     console.log(movies[idx]);
+    // for (const val of movies[idx]) {  //values
+    //     console.log(val);
+    // }
+// } 
+
+var shoppingCart = [
+    { name: "Milk", quantity: 2, price: 33 },
+    { name: "Bread", quantity: 1, price: 40 },
+    { name: "Dahi", quantity: 12, price: 23 }
+];
+
+var total = 0
+for (const i of shoppingCart) {
+    total += (i.quantity * i.price)
+    // console.log(i.quantity + " " + i.price + " -> " + i.quantity * i.price);
 }
+
+console.log(total);
