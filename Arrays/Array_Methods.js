@@ -38,6 +38,59 @@
 ////////////////////////////////////////////////////////////////////////////////////
 
 //filter()
-const fruits = ['🍌', '🍉', '🍍', '🍉','🍉','🍋‍🟩','🍉','🍈','🍇','🍉','🍇','🍇']
+// const fruits = ['🍌', '🍉', '🍍', '🍉','🍉','🍋‍🟩','🍉','🍈','🍇','🍉','🍇','🍇']
+// const watermelon = fruits.filter(item => item === '🍉')
 
-const watermelon = fruits.filter(item => item === '🍉')
+////////////////////////////////////////////////////////////////////////////////////
+
+//reduce()
+
+// const array = [1, 2, 3, 4, 5]
+// console.log(array.reduce((previousValue, currentValue) => previousValue/currentValue));
+
+// const transactions = [
+//     {id: 1, type: 'food', amount: 50},
+//     {id: 2, type: 'entertainment', amount: 120},
+//     {id: 3, type: 'food', amount: 30},
+//     {id: 4, type: 'utilities', amount: 100},
+//     {id: 5, type: 'entertainment', amount: 60},
+// ]
+
+// const categorizedTotals = transactions.reduce((acc, transaction) => {
+//     if(!acc[transaction.type]) {
+//         acc[transaction.type] = 0;
+//     }
+
+//     acc[transaction.type] += transaction.amount;
+
+//     return acc;
+// }, {});
+// console.log(categorizedTotals);
+////////////////////////////////////////////////////////////////////////////////////
+
+//find()
+// const fruits = ['🍌', '🍉', '🍍', '🍉','🍉','🍋‍🟩','🍉','🍈','🍇','🍉','🍇','🍇']
+// console.log(fruits.find(item => item === '🍋‍🟩'));
+// console.log(fruits.findIndex(item => item === '🍉'));
+
+////////////////////////////////////////////////////////////////////////////////////
+
+//fill()
+
+// const a = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+// const b = a.fill('🍅', 0, 20);
+// console.log(b);
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+//every()
+const junkFood = ['🍔', '🍕', '🍔', '🍔', '🍔']
+console.log(junkFood.every(item => item === '🍔'));
+console.log(junkFood.some(item => item === '🍕'));
+
+//some()
+const fruits = ['🍌', '🍉', '🍍', '🍉','🍉','🍋‍🟩','🍉','🍈','🍇','🍉','🍇','🍇']
+console.log(fruits.some(item => item === '🍉'));
+
+
