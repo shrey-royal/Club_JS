@@ -84,11 +84,10 @@
 
 => More useful things :-
 
-   - Iterables.
+   ✅ Iterables.
    - Sets.
    - Maps.
-   - Object.assign.
-   - Optional chaining.
+   ✅ Optional chaining.
 
 => Object Oriented JavaScript / Prototypal Inheritance :-
 
