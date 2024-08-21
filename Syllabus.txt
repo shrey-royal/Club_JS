@@ -91,8 +91,8 @@
 
 => Object Oriented JavaScript / Prototypal Inheritance :-
 
-   - Methods.
-   - This keyword, Window object.
+   ✅ Methods.
+   ✅ This keyword, Window object.
    - Call , apply and bind method.
    - Some warnings.
    - This inside arrow functions.
