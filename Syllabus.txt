@@ -93,8 +93,8 @@
 
    ✅ Methods.
    ✅ This keyword, Window object.
-   - Call , apply and bind method.
-   - Some warnings.
+   ✅ Call , apply and bind method.
+   ✅ Some warnings.
    - This inside arrow functions.
    - Short syntax for methods.
    - Factory functions & discuss some memory related problems.
