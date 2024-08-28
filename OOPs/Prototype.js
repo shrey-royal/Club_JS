@@ -1,25 +1,27 @@
-// var obj = {
-//     key1: "Value1",
-//     key2: "Value2"
-// };
+/* 
+`__proto__`: A property that references the prototype of the object, from which it inherits methods and properties.
 
-// console.log(obj.__proto__);
+`[[prototype]]`: An internal property that the javascript engine uses it to look up properties and methods in the prototype chain.
 
-// var obj2 = Object.create(obj);
-// obj2.key3 = "Value3";
+*/
 
-// console.log(obj);
-// console.log(obj2);
+const parent = { greet() { console.log('Hello!'); } };
+const child = Object.create(parent);    //true
 
-// console.log(obj.key1);
-// console.log(obj.key2);
+console.log(child.__proto__ === parent);
+child.greet();
 
-// console.log(obj2.key1);
-// console.log(obj2.key2);
-// console.log(obj2.key3);
+/*
+const grandParents = { wisdom: 'Ancient Knowledge', recipe: 'Traditional Dish' };
+const parents = Object.create(grandParents);
+parents.modernKnowledge = 'New Techniques';
 
-// console.log(obj.__proto__);
-// console.log(obj2.__proto__);
+const child = Object.create(parents);
+child.newSkills = 'Innovative Methods';
 
-// [[prototype]] === __proto__
-// prototype !== [[prototype]]
+console.log(child.__proto__ === parents);
+console.log(child.__proto__.__proto__ === grandParents);
+
+console.log(child.wisdom);
+console.log(child.newSkills);
+*/

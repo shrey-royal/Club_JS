@@ -6,7 +6,7 @@ let person = {
     //     console.log('Hello!');
     // },
 
-    // greet() {   //ES6
+    // greet() {   //ES6 - Short syntax for methods
     //     console.log('Hello!');
     // },
 
