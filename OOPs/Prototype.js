@@ -5,11 +5,11 @@
 
 */
 
-const parent = { greet() { console.log('Hello!'); } };
-const child = Object.create(parent);    //true
+// const parent = { greet() { console.log('Hello!'); } };
+// const child = Object.create(parent);    //true
 
-console.log(child.__proto__ === parent);
-child.greet();
+// console.log(child.__proto__ === parent);
+// child.greet();
 
 /*
 const grandParents = { wisdom: 'Ancient Knowledge', recipe: 'Traditional Dish' };
@@ -25,3 +25,36 @@ console.log(child.__proto__.__proto__ === grandParents);
 console.log(child.wisdom);
 console.log(child.newSkills);
 */
+
+// -------------------------------------------------------------------------
+// Use Prototype
+
+// function Person(name) {
+//     this.name = name;
+// }
+
+// Person.prototype.greet = function() {
+//     console.log(`Hello, my name is ${this.name}`);
+// }
+
+// const person1 = new Person('Tom');
+// const person2 = new Person('Jerry');
+
+// person1.greet();
+// person2.greet();
+// -------------------------------------------------------------------------
+// new Keyword
+
+// `new` keyword does the following 4 things:
+// 1. Creates a new object.
+// 2. Sets the prototype of the new object to the prototype of the constructor function.
+// 3. Binds this inside the constructor function to the new object.
+// 4. Returns the new object, unless the constructor function returns its own object.
+
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+const person1 = new Person('Annie', 21);
+console.log(person1);

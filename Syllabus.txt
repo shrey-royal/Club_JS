@@ -101,9 +101,9 @@
    ✅ First solution to that problem.
    ✅ Why that solution isn’t that great.
    ✅ What is _proto_ , [[prototype]].
-   - What is prototype.
-   - Use prototype.
-   - New keyword.
+   ✅ What is prototype.
+   ✅ Use prototype.
+   ✅ New keyword.
    - Constructor function with new keyword.
    - More discussion about proto and prototype.
    - Class keyword.
